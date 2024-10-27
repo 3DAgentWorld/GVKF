@@ -1,10 +1,10 @@
-## GVKF: Gaussian Voxel Kernel Functions for Highly Efficient Surface Reconstruction in Open Scenes [NeurIPS 2024]
+# GVKF: Gaussian Voxel Kernel Functions for Highly Efficient Surface Reconstruction in Open Scenes [NeurIPS 2024]
 
-### Release
+## Release
 
 Codes are cleaning ... 
 
-### Related works/projs
+## Related works/projs
 
 - For SOTA mesh reconstruction, refer to concurrent  [Gaussian Opacity Fields](https://github.com/autonomousvision/gaussian-opacity-fields/tree/main).
 
