@@ -1,0 +1,9 @@
+open3d
+plyfile
+ninja
+opencv-python
+lpips
+trimesh
+torch_scatter
+jaxtyping
+einops
