@@ -8,6 +8,8 @@ For custom datasets without camera poses, refer to [Colmap](https://colmap.githu
 - basic image: pytorch1.12-py3.8-cuda11.3
 - packages
 ```
+conda create -n gvkf python=3.8
+conda activate gvkf
 pip install -r requirements.txt
 pip install submodules/diff-gaussian-rasterization
 pip install submodules/simple-knn
@@ -52,7 +54,9 @@ We support datasets post-processed by COLMAP, meaning all of them should have th
 |------sparse
 |--------0
 ```
-Refer to website of [Mip-NeRF 360](https://jonbarron.info/mipnerf360/), [Tanks and Temples](https://www.tanksandtemples.org/download/), [Waymo](https://waymo.com/open/download/) for downloading. If COLMAP poses are not provided, or you feel COLMAP process is too slow (when handing more than 1000+ images), follow `./modifyMatch/README.md` for pose estimation.
+Refer to the website of [Mip-NeRF 360](https://jonbarron.info/mipnerf360/), [Tanks and Temples](https://www.tanksandtemples.org/download/), and [Waymo](https://waymo.com/open/download/) for downloading datasets. For Waymo, we utilize the poses provided by [COLMAP](https://colmap.github.io/); detailed usage instructions can be found in the documentation.
+
+For faster and more accurate pose estimation, stay tuned for the release of our upcoming work.
 
 ## 4. Usage
 ### For training
